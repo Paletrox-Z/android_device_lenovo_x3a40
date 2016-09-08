@@ -5,7 +5,7 @@ include $(CLEAR_VARS)
 ALL_PREBUILT += $(INSTALLED_KERNEL_TARGET)
 
 # include the non-open-source counterpart to this file
--include vendor/Lenovo/X3/AndroidBoardVendor.mk
+-include vendor/Lenovo/x3a40/AndroidBoardVendor.mk
 
 # Create symbolic links
 $(shell mkdir -p $(TARGET_OUT_ETC)/firmware/wlan/qca_cld; \
