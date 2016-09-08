@@ -1,4 +1,4 @@
-Device configuration for Lenovo X3.
+Device configuration for Lenovo X3 ROW (x3a40).
 =====================================
 
 Basic   | Spec Sheet
