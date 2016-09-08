@@ -8,7 +8,7 @@ Have a look below for the device spec sheet.
 Device configuration for Lenovo X3 ROW (x3a40).
 =====================================
 
-Basic Spec Sheet
+Device Specifications | Are give below
 -------:|:-------------------------
 CPU     | Dual-core 1.8 GHz ARM® Cortex™ A57 and quad-core 1.5 GHz ARM® Cortex™ A53
 CHIPSET | Qualcomm MSM8992 Snapdragon 808
