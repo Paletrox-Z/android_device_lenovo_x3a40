@@ -1,7 +1,14 @@
+---- Work in progress ----
+Well, to say the truth this is just a trial device tree. So I would suggest you to not try this at the moment unless you know what you're doing. In case you screw up, I'm so not gonna be resposible for what happens to your device.
+
+The device tree has been forked from "thune-xiaobai/android_device_Lenovo_X3" on github. This if actually for a different model, so I'm trying to make it comnpatible with x3a40 ROW.
+
+Have a look below for the device spec sheet.
+
 Device configuration for Lenovo X3 ROW (x3a40).
 =====================================
 
-Basic   | Spec Sheet
+Basic Spec Sheet
 -------:|:-------------------------
 CPU     | Dual-core 1.8 GHz ARM® Cortex™ A57 and quad-core 1.5 GHz ARM® Cortex™ A53
 CHIPSET | Qualcomm MSM8992 Snapdragon 808
