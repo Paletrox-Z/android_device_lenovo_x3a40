@@ -1,7 +1,7 @@
 #!/bin/bash
 
 VENDOR=Lenovo
-DEVICE=X3
+DEVICE=x3a40
 
 BASE=../../../vendor/$VENDOR/$DEVICE/proprietary
 rm -rf $BASE/*
