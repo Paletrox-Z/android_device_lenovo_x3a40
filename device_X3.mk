@@ -1,18 +1,18 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
-$(call inherit-product-if-exists, vendor/Lenovo/X3/X3-vendor.mk)
+$(call inherit-product-if-exists, vendor/Lenovo/x3a40/X3-vendor.mk)
 
-DEVICE_PACKAGE_OVERLAYS += device/Lenovo/X3/overlay
+DEVICE_PACKAGE_OVERLAYS += device/Lenovo/x3a40/overlay
 
-TARGET_OTA_ASSERT_DEVICE := X3,X3c70,X3c50,x3_row
+TARGET_OTA_ASSERT_DEVICE := X3,X3c70,X3c50,x3_row,x3a40
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 
 #PRODUCT_COPY_FILES += \
-    device/Lenovo/X3/kernel:kernel \
-    device/Lenovo/X3/dt.img:dt.img
+    device/Lenovo/x3a40/kernel:kernel \
+    device/Lenovo/x3a40/dt.img:dt.img
 
 #chargeonlymode
 #PRODUCT_COPY_FILES += \
@@ -345,9 +345,9 @@ TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
 PRODUCT_NAME := full_X3
-PRODUCT_DEVICE := X3
+PRODUCT_DEVICE := x3a40
 PRODUCT_MANUFACTURER := Lenovo
-PRODUCT_MODEL := Lenovo X3
+PRODUCT_MODEL := Lenovo x3a40
 
 # Init scripts
 PRODUCT_PACKAGES += \
