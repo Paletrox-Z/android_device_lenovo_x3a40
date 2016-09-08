@@ -1,4 +1,5 @@
 ---- Work in progress ----
+
 Well, to say the truth this is just a trial device tree. So I would suggest you to not try this at the moment unless you know what you're doing. In case you screw up, I'm so not gonna be resposible for what happens to your device.
 
 The device tree has been forked from "thune-xiaobai/android_device_Lenovo_X3" on github. This if actually for a different model, so I'm trying to make it comnpatible with x3a40 ROW.
