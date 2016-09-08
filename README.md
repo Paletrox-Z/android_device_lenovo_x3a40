@@ -17,4 +17,4 @@ Rear Camera  | 21.0 MP, Dual LED flash
 Front Camera | 8.0 MP
 Release Date | Nov. 2015
 
-![Lenovo X3](http://p4.lefile.cn/product/adminweb/2016/04/23/UOAkle9qUvFWbGc1ewOYHSVJS-8365.w544.jpg "Lenovo X3")
+![Lenovo X3](http://cdn2.gsmarena.com/vv/pics/lenovo/lenovo-vibe-x3-0.jpg "Lenovo X3")
