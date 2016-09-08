@@ -1,11 +1,11 @@
-LOCAL_PATH := device/Lenovo/X3
+LOCAL_PATH := device/Lenovo/x3a40
 
 PRODUCT_COPY_FILES := $(filter-out frameworks/base/data/keyboards/Generic.kl:system/usr/keylayout/Generic.kl , $(PRODUCT_COPY_FILES))
 
 USE_CAMERA_STUB := true
 
 # inherit from the proprietary version
--include vendor/Lenovo/X3/BoardConfigVendor.mk
+-include vendor/Lenovo/x3a40/BoardConfigVendor.mk
 
 #Platform
 TARGET_BOARD_PLATFORM := msm8992
@@ -89,7 +89,7 @@ USE_CUSTOM_AUDIO_POLICY := 1
 # Bluetooth
 BOARD_HAVE_BLUETOOTH_QCOM := true
 BOARD_HAS_QCA_BT_ROME := true
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/Lenovo/X3/bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/Lenovo/x3a40/bluetooth
 QCOM_BT_USE_BTNV := true
 QCOM_BT_USE_SMD_TTY := true
 WCNSS_FILTER_USES_SIBS := true
@@ -98,7 +98,7 @@ USE_OPENGL_RENDERER := true
 BOARD_USE_LEGACY_UI := true
 
 #Kernel
-TARGET_KERNEL_SOURCE := kernel/Lenovo/X3
+TARGET_KERNEL_SOURCE := kernel/Lenovo/x3a40
 TARGET_KERNEL_CONFIG := x3_defconfig
 BOARD_KERNEL_CMDLINE := console=tty60,115200,n8 androidboot.console=tty60 androidboot.hardware=qcom user_debug=31 msm_rtb.filter=0x37 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 boot_cpus=0-5 androidboot.selinux=permissive
 BOARD_KERNEL_BASE        := 0x00000000
@@ -179,7 +179,7 @@ BOARD_USES_QC_TIME_SERVICES := true
 #MALLOC_IMPL := dlmalloc
 
 # CMHW
-BOARD_HARDWARE_CLASS := device/Lenovo/X3/cmhw
+BOARD_HARDWARE_CLASS := device/Lenovo/x3a40/cmhw
 
 # dt2w
 TARGET_TAP_TO_WAKE_NODE := "/sys/class/input/input0/wake_gesture"
@@ -248,4 +248,4 @@ TW_EXTERNAL_STORAGE_MOUNT_POINT := "usb-otg"
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
 
-BOARD_SEPOLICY_DIRS += device/Lenovo/X3/sepolicy
+BOARD_SEPOLICY_DIRS += device/Lenovo/x3a40/sepolicy
